@@ -1,0 +1,51 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    width: 50vw;
+    margin: auto;
+    line-height: 1;
+    font-family: 'Poppins', sans-serif;
+}
+#movies-container{
+    background-color: #e8e8e8;
+    padding: 1rem;
+}
+#movies {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: auto;
+    row-gap: 2rem;
+}
+.movie-card {
+    width: 16rem;
+    height: 30rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 5px 5px 2px gray;
+}
+.movie-banner {
+    width: 16rem;
+    height: 19rem;
+    border-radius: 0.5rem;
+}
+.movie-title, .movie-duration, .movie-description{
+    margin: 1rem 1rem;
+    text-align: justify;
+}
+
+#search-container {
+    height: 7rem;
+    background-color: black;
+}
+
+#search-input {
+    width: 48vw;
+    margin-top: 1rem;
+    padding: 1rem;
+    text-decoration: none;
+    outline: none;
+}
